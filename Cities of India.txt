@@ -1,0 +1,17 @@
+There are a lot of people in India that want to move from one place to another for thier jobs and their business.
+Now as the project has to be similar to the battle of neighbourhoods. I would be comapring different cities in India 
+based on different factors and categories. The major cities list is decided by the cities in India having the most 
+population as these cities have a huge amount of businesses and employess.
+
+As the top cities are decided based on popiuation I will first gain data about the lattitudes and longitudes of these
+cities , make a dataframe out of the given data and represent the map using the folium library. Hence in the start you
+can see all the cities highlighted on the map of India that would be taken into consideration.
+
+After representing the initial data. Using foursquare I will find the attributes of each of the highlighted cities with
+the help of FOURSQUAURE api and lattitudes and longitudes of the different cities. After gaining the attributes for each 
+and every city. Using KMeans clustering algorithm i will find the similarities between different cities fiting data and 
+obtaining labels.
+
+Once all the cities are labelled based on their attributes. the cities will once again be represented using folium
+based on their labels and similarities.This will help determine locations and cities in India which are similar as they
+would be visually highlighted by the same color.and belong to the same label.
