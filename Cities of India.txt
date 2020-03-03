@@ -1,3 +1,4 @@
+Problem and method:
 There are a lot of people in India that want to move from one place to another for thier jobs and their business.
 Now as the project has to be similar to the battle of neighbourhoods. I would be comapring different cities in India 
 based on different factors and categories. The major cities list is decided by the cities in India having the most 
@@ -15,3 +16,11 @@ obtaining labels.
 Once all the cities are labelled based on their attributes. the cities will once again be represented using folium
 based on their labels and similarities.This will help determine locations and cities in India which are similar as they
 would be visually highlighted by the same color.and belong to the same label.
+
+Data used:
+For the location of different cities we can use 'https://simplemaps.com/data/in-cities'
+this site has tables which could be read using pandas. it provied the latitudes and longitudes of different cities
+the venues data for these different latitudes and longitudes could be found using a reuqest to the foursquare api
+of the form 
+'https://api.foursquare.com/v2/venues/explore?&client_id={}&client_secret={}&v={}&ll={},{}&radius={}&limit={}'
+Thats all the data sources I have used.
